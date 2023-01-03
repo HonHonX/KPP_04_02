@@ -29,7 +29,7 @@ int main () {
   scanf("%d", &zahl2);
   
   //Ausgabe
-  printf("Die größere Zahl der beiden lautet %d",vergleich(zahl,zahl2)); 
+  printf("Die größere Zahl der beiden lautet %d",vergleich(zahl1,zahl2)); 
     
 	//Ende
 	printf("\n\n");
