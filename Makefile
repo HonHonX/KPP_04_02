@@ -1,13 +1,14 @@
-HEADERS = groessereZahl.h
+HEADERS = vergleich.h
 
-default: vergleich
+default: groesser
 
-vergleich.o: vergleich.c $(HEADERS)
-	gcc -c vergleich.c -o vergleich.o
+groesser.o: groesser.c
+	gcc -c groesser.c -o groesser.o
 
-vergleich: vergleich.o
-	gcc vergleich.o -o vergleich
+groesser: groesser.o vergleich.o
+	gcc groesser.o vergleich.o -o groesser
 
 clean: 
+	-rm -f groesser.o
 	-rm -f vergleich.o
 	-rm -f vergleich
