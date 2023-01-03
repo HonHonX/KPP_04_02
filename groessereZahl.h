@@ -1,0 +1,1 @@
+int groessereZahl(int, int);
