@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "vergleich.h"
+#include "groessereZahl.h"
 
 //Hauptprogramm
 int main () {
@@ -27,7 +27,7 @@ int main () {
   scanf("%d", &zahl2);
   
   //Ausgabe
-  printf("\nDie größere Zahl der beiden Zahlen lautet %d.\n",vergleich(zahl1,zahl2)); 
+  printf("\nDie größere Zahl der beiden Zahlen lautet %d.\n",groessereZahl(zahl1,zahl2)); 
     
   //Ende
   printf("\n\n");
