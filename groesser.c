@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "groessereZahl.h"
+#include "vergleich.h"
 
 //Hauptprogramm
 int main () {
