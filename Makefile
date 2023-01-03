@@ -1,6 +1,6 @@
 HEADERS = vergleich.h
 
-default:vergleich
+default: vergleich
 
 vergleich.o: vergleich.c $(HEADERS)
   gcc -c vergleich.c -o vergleich.o
