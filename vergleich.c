@@ -1,7 +1,5 @@
-#include<stdio.h>
-
-//Funktions-Prototypen
-int vergleich (int zahl1, int zahl2);
+#include <stdio.h>
+#include "vergleich.h"
 
 //Hauptprogramm
 int main () {
@@ -34,12 +32,4 @@ int main () {
   //Ende
   printf("\n\n");
   return 0;
-}
-
-//Funktionen
-int vergleich (int zahl1, int zahl2) {
-  if (zahl1>zahl2)
-    return zahl1;
-  else
-     return zahl2;
 }
