@@ -5,7 +5,7 @@ default: vergleich
 vergleich.o: vergleich.c $(HEADERS)
   gcc -c vergleich.c -o vergleich.o
   
-rechner: vergleich.o
+vergleich: vergleich.o
   gcc vergleich.o -o vergleich
   
 clean:
