@@ -2,7 +2,7 @@ HEADERS = vergleich.h
 
 default: vergleich
 
-vergleich.o: vergleich.c $(HEADERS)
+vergleich.o: vergleich.c
   gcc -c vergleich.c -o vergleich.o
   
 rechner: vergleich.o
