@@ -1,4 +1,4 @@
-HEADERS = vergleich.h
+HEADERS = groessereZahl.h
 
 default: vergleich
 
